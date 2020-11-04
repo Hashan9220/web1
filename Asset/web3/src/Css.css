@@ -1,0 +1,124 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+section
+{
+    height: 100vh;
+    background: linear-gradient(to top,#2305c7,#00c4ff) ;
+}
+#particles
+{
+    width: 100%;
+    height: 100%;
+}
+.fish
+{
+    position: absolute;
+}
+.fish1
+{
+    top: 30%;
+    height: 100px;
+    animation: animate 15s linear infinite;
+}
+.fish2
+{
+    top: 60%;
+    height: 60px;
+    animation: animate 20s linear infinite;
+}
+.fish3
+{
+    top: 80%;
+    height: 50px;
+    animation: animate2 25s linear infinite;
+}
+.fish4
+{
+    top: 50%;
+    height: 50px;
+    animation: animate2 22s linear infinite;
+}
+.fish5
+{
+    top: 40%;
+    height: 50px;
+    animation: animate2 25s linear infinite;
+}
+.fish6
+{
+    top: 15%;
+    height: 50px;
+    animation: animate2 25s linear infinite;
+}
+.fish7
+{
+    top: 70%;
+    height: 120px;
+    animation: animate 27s linear infinite;
+}
+@keyframes animate {
+
+    0% {
+        transform: translateY(-50px);
+        left: -25%;
+    }
+    25% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(50px);
+    }
+    75% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(-50px);
+        left: 155%;
+    }
+}
+@keyframes animate {
+
+    0% {
+        transform: translateY(-50px);
+        left: -25%;
+    }
+    25% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(50px);
+    }
+    75% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(-50px);
+        left: 155%;
+    }
+}
+@keyframes animate2 {
+
+    0% {
+        transform: translateY(-50px);
+        right: -25%;
+    }
+    25% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(50px);
+    }
+    75% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(-50px);
+        right: 155%;
+    }
+}
+
+
